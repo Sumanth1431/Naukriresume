@@ -34,7 +34,7 @@ public class ResumePage {
         //otherwise we can use normally through sendkeys  fileupload and all
 		try {
 	        // Execute the AutoIT script to handle the file picker dialog
-	        String autoItScript = "P:\\sumanth\\Naukri\\NaukriApplication\\src\\resources\\autofile.exe";
+	        String autoItScript = "src\\resources\\autofile.exe";
 	        Runtime.getRuntime().exec(autoItScript);
 	    } catch (IOException e) {
 	        e.printStackTrace();
